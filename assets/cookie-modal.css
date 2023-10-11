@@ -1,0 +1,44 @@
+.cookie-modal {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    z-index: 999;
+}
+
+.cookie-modal-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.cookie-modal p {
+    margin: 0;
+}
+
+.cookie-modal a {
+    color: #f1c40f;
+    text-decoration: none;
+}
+
+.cookie-modal a:hover {
+    text-decoration: underline;
+}
+
+.cookie-modal button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.allow-button {
+    background-color: #27ae60;
+    color: white;
+}
+
+.deny-button {
+    background-color: #e74c3c;
+    color: white
